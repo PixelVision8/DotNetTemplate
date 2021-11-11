@@ -1,19 +1,16 @@
-# Pixel Vision 8 v2.0 - DotNet Template
+# Pixel Vision 8 v2.0 - My Game Template
 
 Pixel Vision 8's core philosophy is to teach retro game development with streamlined workflows. This template was designed to help get you up and running as quickly as possible with making your first PV8 game with C#.
 
 ## Quick Start Guide
 
-I've tried my best to make compiling, testing, and packaging a new game as easy as possible. While you can learn more about this in the [docs](https://github.com/PixelVision8/PixelVision8/wiki), here is the quickest way to build a game with this template:
+I've tried my best to make compiling, testing, and packaging as easy as possible. While you can learn more about this in the [docs](https://github.com/PixelVision8/PixelVision8/wiki), here is the quickest way to build this game template:
 
-> Before you get started, you are going to want to install [.Net 6](https://dotnet.microsoft.com/download/dotnet/6.0). The project itself will need, [NodeJS](https://nodejs.org/en/download/), and an IDE like [Visual Studio Code](https://code.visualstudio.com/Download).
+> Before you get started, you are going to want to install [.Net 6](https://dotnet.microsoft.com/download/dotnet/6.0), [NodeJS](https://nodejs.org/en/download/), and an IDE like [Visual Studio Code](https://code.visualstudio.com/Download).
 
-1. Install the dotnet template `> dotnet new --install PixelVision8.Template`
-2. Crete a new project `> dotnet new pv8-game --name MyGame`
-3. Open the project in `VS Code` or the command line `> cd MyGame`
-4. Install the NodeJS dependencies `> npm install`
-5. Run the default Gulp action `> gulp`
-6. Launch the `.dll` manually `dotnet App/bin/Debug/My\ Game\ 8.dll`
+1. Install the NodeJS dependencies `> npm install`
+2. Run the default Gulp action `> gulp`
+3. Launch the `.dll` manually `dotnet App/bin/Debug/My\ Game\ 8.dll`
 
 If you want to build executables, you can use the Gulp action `> gulp package`. This will create a new `Releases/Final/` folder, and inside, you'll zip files for Windows, Mac, and Linux.
 

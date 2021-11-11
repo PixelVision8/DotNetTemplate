@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>0.1.0-alpha</PackageVersion>
+    <PackageId>PixelVision8.Template</PackageId>
+    <Title>>Pixel Vision 8 Game Template</Title>
+    <Authors>Jesse Freeman</Authors>
+    <Description>A template for creating Pixel Vision 8 games with dotnet.</Description>
+    <TargetFramework>net6.0</TargetFramework>
+    <Company>Pixel Vision 8</Company>
+    <Copyright>Jesse Freeman 2020</Copyright>
+    <RepositoryUrl>https://github.com/PixelVision8/DotNetTemplate</RepositoryUrl> 
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>pixelvision8;pv8;monovision;.net core;core;.net standard;standard;desktopgl</PackageTags>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Template\**\*" Exclude=".git\**;Template\**\bin\**;Template\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+</Project>
